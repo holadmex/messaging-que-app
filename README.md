@@ -209,7 +209,7 @@ Freight not, lol, we're  95% done to the completion of our project on carrying o
 
 `sudo rabbitmq-server` (This CMD launch our **RabbitMQ** sever to run for the course of our python messaging queue app test)
 
-`sudo rabbitmq-server -detached` (This helps to run your RabbitMQ sever in the background without holding the terminal as hostage)
+`sudo rabbitmq-server -detached` (This helps to run your RabbitMQ sever in the background without the terminal being held as hostage)
 
 Open another sperate terminal (Optiona, but a must on first attempt with cmd above and below)
 
@@ -217,14 +217,20 @@ Open another sperate terminal (Optiona, but a must on first attempt with cmd abo
 
 `celery -A app.celery worker --loglevel=info` (This opens your **Celery** monitoring environment on checking for errors and successful `?sendmail` execution of your python messaging queue app)
 
-`celery -A app.celery worker --loglevel=info --detach` (This helps to run your **Celery** in the background without holding the terminal as hostage)
+`celery -A app.celery worker --loglevel=info --detach` (This helps to run your **Celery** in the background without the terminal being held hostage.)
 
 **Third step:**
 
 `python3 app.py` (This CMD lunch your web app development URL to be accessed on your localhost web browser.)
 
-nohup python3 app.py > app.log 2>&1 & (This helps to lunch the app in the background without holding the terminal as hostage, and also output the return function to app.log.)
+nohup python3 app.py > app.log 2>&1 & (This helps to lunch the app in the background without the terminal being held hostage, and also output the return function to app.log.)
 
+## Here are the following path to the application web redirection on sending your queued email locally without Ngrok
+
+localhost:5000
+localhost:5000/?sendmail=happy-learning@gmail.com (Email you which to send message to)
+localhost:+5000/?talktome
+localhost:5000/logs
 
 ## Finally, on exposing our `Local Development Test` to other team members, carry out the installation below;
 
@@ -236,6 +242,12 @@ nohup python3 app.py > app.log 2>&1 & (This helps to lunch the app in the backgr
 
 `ngrok http 5000` (You should see an outputted endpoint "https://e7c9-44-202-0-101.ngrok-free.app/" which serves as your URL to be publicly accessed.)
 
+## Here are the following path to the application web redirection on sending your queued email with Ngrok
+
+https://e7c9-44-202-0-101.ngrok-free.app/
+https://e7c9-44-202-0-101.ngrok-free.app:5000/?sendmail=happy-learning@gmail.com
+https://e7c9-44-202-0-101.ngrok-free.app:5000/?talktome
+https://e7c9-44-202-0-101.ngrok-free.app:5000/logs
 
 We've come to the End of the Task,
 
