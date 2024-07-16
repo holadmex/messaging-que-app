@@ -45,7 +45,7 @@ sudo apt-get install rabbitmq-server
 
 sudo apt install nginx -y
 
-{% embed https://ngrok.com/docs/guides/device-gateway/linux/ %}
+{% embed https://ngrok.com/docs/guides/device-gateway/linux/ %} (Redirection link to installl Ngrok)
 
 On successful completion of installing Ngrok, log on to {% embed https://ngrok.com/ %} and sign up, to have a generate token which will be integrated with your project directory on your Linux terminal environment. Run the command below
 
