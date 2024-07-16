@@ -43,11 +43,11 @@ Nginx is a web server and reverse proxy server that is widely used for serving w
 
 ## **Installation Prerequisite**
 
-``sudo apt-get update
+```sudo apt-get update
 
 sudo apt-get install rabbitmq-server
 
-sudo apt install nginx -y``
+sudo apt install nginx -y```
 
 {% embed https://ngrok.com/docs/guides/device-gateway/linux/ %} (Redirection link to installl Ngrok)
 
