@@ -39,11 +39,11 @@ Nginx is a web server and reverse proxy server that is widely used for serving w
 
 # **Installation Prerequisite**
 
-`sudo apt-get update
+``sudo apt-get update
 
 sudo apt-get install rabbitmq-server
 
-sudo apt install nginx -y
+sudo apt install nginx -y``
 
 {% embed https://ngrok.com/docs/guides/device-gateway/linux/ %} (Redirection link to installl Ngrok)
 
@@ -56,11 +56,11 @@ On successful completion of installing Ngrok, log on to {% embed https://ngrok.c
 
 First we'll open a directory on our Linux Vm (e.g Ubuntu)
 
-`mkdir messaging-queue-app
+``mkdir messaging-queue-app
 
 cd messaging-queue-app
 
-touch app.py .env ngnix.conf `
+touch app.py .env ngnix.conf``
 
 
 Created **app.py** File context
@@ -149,9 +149,7 @@ if __name__ == '__main__':
 
  **NB:** The Python Messaging queue application development here was setup to make use of (Yahoomail SMTP Send). You you're to put in your email address, and also generate an app token in your Yahoomail account security path, and make the configuration changes in the (.env)
 
-``
-.env
-``
+Created .env File context
 
 ```
 EMAIL_USER="ojewumi_dimeji@ymail.com"
@@ -160,7 +158,7 @@ SMTP_SERVER="smtp.mail.yahoo.com"
 SMTP_PORT=465
 ```
 
-`nginx.conf`
+Created nginx.conf File context
 
 ```
 server {
