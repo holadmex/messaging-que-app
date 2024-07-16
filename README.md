@@ -228,11 +228,12 @@ nohup python3 app.py > app.log 2>&1 & (This helps to lunch the app in the backgr
 
 ## Here are the following path to the application web redirection on sending your queued email locally without Ngrok
 
+```
 localhost:5000
 localhost:5000/?sendmail=happy-learning@gmail.com (Email you which to send message to)
 localhost:+5000/?talktome
 localhost:5000/logs
-
+```
 ## Finally, on exposing our `Local Development Test` to other team members, carry out the installation below;
 
 `sudo apt-get install screen`
@@ -245,10 +246,12 @@ localhost:5000/logs
 
 ## Here are the following path to the application web redirection on sending your queued email with Ngrok
 
+```
 https://e7c9-44-202-0-101.ngrok-free.app/
 https://e7c9-44-202-0-101.ngrok-free.app:5000/?sendmail=happy-learning@gmail.com
 https://e7c9-44-202-0-101.ngrok-free.app:5000/?talktome
 https://e7c9-44-202-0-101.ngrok-free.app:5000/logs
+```
 
 We've come to the End of the Task,
 
