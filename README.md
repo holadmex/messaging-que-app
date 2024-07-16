@@ -186,7 +186,7 @@ server {
 
 `sudo apt-get install python3-venv`
 
-Right after the `python3-venv installation`, execute the following command below on your Linux terminal. This command create a separate virtual environment in your project directory for your block of code function to carry out its functions.
+Right after the `python3-venv` installation, execute the following command below on your Linux terminal. This command create a separate virtual environment in your project directory for your block of code function to carry out its functions.
 
 ```
 python3 -m venv messaging-queue
