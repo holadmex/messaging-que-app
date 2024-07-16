@@ -43,11 +43,11 @@ Nginx is a web server and reverse proxy server that is widely used for serving w
 
 ## **Installation Prerequisite**
 
-```sudo apt-get update
+``sudo apt-get update
 
 sudo apt-get install rabbitmq-server
 
-sudo apt install nginx -y```
+sudo apt install nginx -y``
 
 {% embed https://ngrok.com/docs/guides/device-gateway/linux/ %} (Redirection link to installl Ngrok)
 
@@ -60,13 +60,12 @@ On successful completion of installing Ngrok, log on to {% embed https://ngrok.c
 
 First we'll open a directory on our Linux Vm (e.g Ubuntu)
 
-``
-mkdir messaging-queue-app
 
-cd messaging-queue-app
+**mkdir messaging-queue-app**
 
-touch app.py .env ngnix.conf
-``
+**cd messaging-queue-app**
+
+**touch app.py .env ngnix.conf**
 
 Created **app.py** File context
 
