@@ -12,7 +12,7 @@ Today we'll be developing a **Python Messaging Queue Test**, which consist of th
 4. Nginx
 
 
-Lets talk about the theoretical aspect of the core tools we'll be using in the course of the task curtesy of **(HNG Internship)**
+Lets talk about the theoretical aspect of the core tools we'll be using in the course of the task, courtesy of **(HNG Internship)**
 
 
 What is **RabbitMQ**?
