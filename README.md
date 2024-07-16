@@ -60,12 +60,13 @@ On successful completion of installing Ngrok, log on to {% embed https://ngrok.c
 
 First we'll open a directory on our Linux Vm (e.g Ubuntu)
 
-``mkdir messaging-queue-app
+``
+mkdir messaging-queue-app
 
 cd messaging-queue-app
 
-touch app.py .env ngnix.conf``
-
+touch app.py .env ngnix.conf
+``
 
 Created **app.py** File context
 
