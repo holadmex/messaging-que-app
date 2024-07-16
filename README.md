@@ -51,7 +51,7 @@ Nginx is a web server and reverse proxy server that is widely used for serving w
 
 {% embed https://ngrok.com/docs/guides/device-gateway/linux/ %} (Redirection link to installl Ngrok)
 
-On successful completion of installing Ngrok, log on to {% embed https://ngrok.com/ %} and sign up, to have a generate token which will be integrated with your project directory on your Linux terminal environment. Run the command below
+## On successful completion of installing Ngrok, log on to {% embed https://ngrok.com/ %} and sign up, to have a generate token which will be integrated with your project directory on your Linux terminal environment. Run the command below
 
 `ngrok authtoken <your generate token>`
 
