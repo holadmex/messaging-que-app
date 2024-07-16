@@ -211,7 +211,8 @@ Freight not, lol, we're  95% done to the completion of our project on carrying o
 
 `sudo rabbitmq-server -detached` (This helps to run your RabbitMQ sever in the background without the terminal being held as hostage)
 
-Open another sperate terminal (Optiona, but a must on first attempt with cmd above and below)
+## Open another sperate terminal on executing each rabbitmq-server and celery cmd
+(Optiona, but a must on first attempt with cmd above and below)
 
 **Second step:**
 
