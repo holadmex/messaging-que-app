@@ -1,3 +1,7 @@
+
+# Python Messaging Queue App Development
+
+
 **Hello** guys,
 
 Today we'll be developing a **Python Messaging Queue Test**, which consist of the following 'Tools' as our requirement.
@@ -37,7 +41,7 @@ Nginx is a web server and reverse proxy server that is widely used for serving w
 **Lets hop into the business of the day, getting hands on the project task as we progress in the course of the blog post.**
 
 
-# **Installation Prerequisite**
+## **Installation Prerequisite**
 
 ``sudo apt-get update
 
@@ -147,7 +151,8 @@ if __name__ == '__main__':
 ```
 
 
- **NB:** The Python Messaging queue application development here was setup to make use of (Yahoomail SMTP Send). You you're to put in your email address, and also generate an app token in your Yahoomail account security path, and make the configuration changes in the (.env)
+ ## NB:
+ The Python Messaging queue application development here was setup to make use of (Yahoomail SMTP Send). You you're to put in your email address, and also generate an app token in your Yahoomail account security path, and make the configuration changes in the (.env)
 
 Created .env File context
 
@@ -175,9 +180,9 @@ server {
 ```
 
 
-On filling each files with their respective blocks of codes, there are few more Python requirement Frameworks/libraries to be installed right in our project directory using the (virtual Linux environment CMD)
+On filling each files with their respective blocks of codes, there are few more Python requirement Frameworks/libraries to be installed right in our project directory using the (virtual Linux environment cmd)
 
-**Installation**
+## Installation
 
 `sudo apt-get install python3-venv`
 
@@ -188,7 +193,7 @@ python3 -m venv messaging-queue
 source messaging-queue/bin/activate
 ```
 
-On carry out the above, we'll commence installation of our Python Frameworks/Libraries right inside our created (`venv messaging-queue`) which you  will be redirected to on executing the (`source messaging-queue/bin/activate`) CMD
+On carry out the above, we'll commence installation of our Python Frameworks/Libraries right inside our created (`venv messaging-queue`) which you  will be redirected to on executing the (`source messaging-queue/bin/activate`) cmd
 
 ```
 pip install celery
@@ -206,7 +211,7 @@ Freight not, lol, we're  95% done to the completion of our project on carrying o
 
 `sudo rabbitmq-server -detached` (This helps to run your RabbitMQ sever in the background without holding the terminal as hostage)
 
-Open another sperate terminal (Optiona, but a must on first attempt with CMD above and below)
+Open another sperate terminal (Optiona, but a must on first attempt with cmd above and below)
 
 **Second step:**
 
