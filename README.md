@@ -56,7 +56,7 @@ Nginx is a web server and reverse proxy server that is widely used for serving w
 `ngrok authtoken <your generate token>`
 
 
-**Hold still, we'll be writing few couple blocks of code using python and installing the required Python Framework/Library to execute our Python blocks of code functions.**
+**Hold still, we'll be writing few couple blocks of code using Python and installing the required Python Framework/Library to execute our Python blocks of code functions.**
 
 First we'll open a directory on our Linux Vm (e.g Ubuntu)
 
