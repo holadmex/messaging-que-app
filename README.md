@@ -32,7 +32,7 @@ What is **Ngrok**?
 Ngrok is a tool that creates secure tunnels from a public endpoint (like the internet) to a locally running web service or application. It allows developers to expose their local development stage environment to the internet securely, making it easier to test and share work-in-progress applications with team members without deploying them to a live environment. 
 
 
-What is **Nginx** 
+What is **Nginx**? 
 
 Nginx is a web server and reverse proxy server that is widely used for serving web content, handling load balancing, and acting as a proxy for email services. It's known for its speed, reliability, and low resource usage mainly in development to production stage.
 
