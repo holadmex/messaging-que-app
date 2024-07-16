@@ -49,7 +49,7 @@ Nginx is a web server and reverse proxy server that is widely used for serving w
 
 `sudo apt install nginx -y`
 
-`{% embed https://ngrok.com/docs/guides/device-gateway/linux/ %}` (Redirection link to installl Ngrok)
+{% embed https://ngrok.com/docs/guides/device-gateway/linux/ %} (Redirection link to installl Ngrok)
 
 On successful completion of installing Ngrok, log on to {% embed https://ngrok.com/ %} and sign up, to have a generate token which will be integrated with your project directory on your Linux terminal environment. Run the command below
 
@@ -180,7 +180,7 @@ server {
 ```
 
 
-On filling each files with their respective blocks of codes, there are few more Python requirement Frameworks/libraries to be installed right in our project directory using the (virtual Linux environment cmd)
+## On filling each files with their respective blocks of codes, there are few more Python requirement Frameworks/libraries to be installed right in our project directory using the (virtual Linux environment cmd)
 
 ## Installation
 
@@ -226,11 +226,11 @@ Open another sperate terminal (Optiona, but a must on first attempt with cmd abo
 nohup python3 app.py > app.log 2>&1 & (This helps to lunch the app in the background without holding the terminal as hostage, and also output the return function to app.log.)
 
 
-Finally, on exposing our `Local Development Test` to other team members, carry out the installation below;
+## Finally, on exposing our `Local Development Test` to other team members, carry out the installation below;
 
 `sudo apt-get install screen`
 
-On completion of the installation, run;
+## On completion of the installation, run;
 
 `screen -S ngrok`
 
@@ -239,7 +239,7 @@ On completion of the installation, run;
 
 We've come to the End of the Task,
 
-Celebrate yourself for not holding back on the success of completing the Python Messaging Queue App Development,
+**Celebrate yourself** for not holding back on the success of completing the **Python Messaging Queue App Development**,
 
 Happy reading,
 Thank you.
